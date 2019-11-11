@@ -1,6 +1,9 @@
 class Player
 
-  def initialize
+  attr_accessor :num, :lives
+  
+  def initialize(num)
+    @num = num
     @lives = 3
   end
 
